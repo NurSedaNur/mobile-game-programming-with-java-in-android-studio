@@ -1,0 +1,21 @@
+   // Butona tıklandığında yapılacak işlemler burada olacak
+                System.out.println(" onayla tıklandı");
+                try {
+                    String kullan = wordOperations();
+                }
+                catch (IOException e) {
+                    e.printStackTrace();
+                }
+                try {
+                    FileHandle fileHandle = Gdx.files.internal("yazlab.txt");
+                    BufferedReader reader = new BufferedReader(fileHandle.reader());
+                    String line = null;
+                    int toplampuan=0;
+                    while ((line = reader.readLine()) != null) {
+                        toplamhesapla(line, kullan);
+                    }
+
+                }
+                catch (IOException e) {
+                    e.printStackTrace();
+                }
