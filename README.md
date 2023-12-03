@@ -1,9 +1,7 @@
 # mobile-game-programming-with-java-in-android-studio
  mobile-game-programming-with-java-in-android-studio
 
-Projeye ait detaylı bilgiye aşağıdaki rapordan ulaşabilirsiniz
-
-[Rapor.pdf](https://github.com/NurSedaNur/mobile-game-programming-with-java-in-android-studio/files/12652549/Rapor.pdf)
+Projeye ait detaylı bilgiye Rapor(2).pdf dosyasından ulaşabilirsiniz
 
  • Giriş
 Mobil programlama kullanılarak oyun geliştirilmesi yapılacaktır. Oyun kelime oyundur
